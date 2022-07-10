@@ -26,11 +26,6 @@ public class TriggerScript : MonoBehaviour
     Debug.Log("COLLIDED");
 
     StartCoroutine(TimeDelay());
-    
-            if (other.tag == "Player" && !source.isPlaying)
-        {
-            source.Play();
-        }
 
 }
 
