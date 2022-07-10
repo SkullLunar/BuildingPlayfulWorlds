@@ -7,6 +7,9 @@ public class TriggerScript : MonoBehaviour
     public GameObject thePlayer;
     public GameObject cutsceneCam;
 
+    public AudioSource source;
+    public AudioClip clip;
+
     public GameObject fire;
 
     void OnTriggerEnter(Collider col)
@@ -14,6 +17,9 @@ public class TriggerScript : MonoBehaviour
     //Camera Switch
     cutsceneCam.SetActive(true);
     thePlayer.SetActive(false);
+
+    //play Audio
+    source.PlayOneShot(clip);
 
     //Particle system activation
     fire.SetActive(true);
