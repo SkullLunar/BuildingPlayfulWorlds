@@ -1940,6 +1940,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thePlayer: {fileID: 281299727}
   cutsceneCam: {fileID: 330585543}
+  fire1: {fileID: 1249354396}
+  fire2: {fileID: 0}
+  fire3: {fileID: 0}
+  fire4: {fileID: 0}
+  fire5: {fileID: 0}
+  fire6: {fileID: 0}
+  fire7: {fileID: 0}
+  fire8: {fileID: 0}
 --- !u!1001 &804539110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2519,6 +2527,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5302568919011541938, guid: c27cfd75f31a79144a3a87739019bfa9, type: 3}
+--- !u!1 &1249354396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 968646794051428085, guid: be680d1bed2c96b4a96fd87ce2e062a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2005494856}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1255859747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3859,6 +3873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 38.755
+      objectReference: {fileID: 0}
+    - target: {fileID: 3356393096428847430, guid: be680d1bed2c96b4a96fd87ce2e062a3,
+        type: 3}
+      propertyPath: looping
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be680d1bed2c96b4a96fd87ce2e062a3, type: 3}
