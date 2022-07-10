@@ -96,7 +96,7 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _Poopoo: 0.84
+    - _Poopoo: 1.23
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
