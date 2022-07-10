@@ -18,11 +18,21 @@ public class TriggerScript : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
 {   
+    //Camera Switch
     cutsceneCam.SetActive(true);
     thePlayer.SetActive(false);
 
-    fire1.SetActive(false);
-    Debug.Log("COLLIDED");
+    //Particle system activation
+    fire1.SetActive(true);
+    fire2.SetActive(true);
+    fire3.SetActive(true);
+    fire4.SetActive(true);
+    fire5.SetActive(true);
+    fire6.SetActive(true);
+    fire7.SetActive(true);
+    fire8.SetActive(true);
 
+    //Debug collission check
+    Debug.Log("COLLIDED");
 }
 }
